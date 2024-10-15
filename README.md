@@ -19,15 +19,14 @@ and save it to your GitHub repository.
 3. Extract and transform the crowdfunding.xlsx
 Excel data to create a subcategory DataFrame thathas the following columns:
 A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcat n
-",where n is the number of unique subcategories
+", where n is the number of unique subcategories
 A "subcategory" column that contains only the subcategory titles
 
 4. Export the subcategory DataFrame as subcategory.csv
 and save it to your GitHub repository.
 
 Create the Campaign DataFrame
-1.
-Extract and transform the crowdfunding.xlsx
+1. Extract and transform the crowdfunding.xlsx
 Excel data to create a campaign DataFrame hasthe following columns:
 The "cf_id" column
 The "contact_id" column
@@ -52,12 +51,11 @@ The "subcategory_id" column, with the unique identification numbers matching tho
 and save it to your GitHub repository.
 
 Create the Contacts DataFrame
-1.
-Choose one of the following two options for extracting and transforming the data from the
+1. Choose one of the following two options for extracting and transforming the data from the
 contacts.xlsx
 Excel data:
 Option 1:
-Use Python dictionary methods. We used this method.
+Use Python dictionary methods.** We used this method.**
 
 2. If you chose Option 1, complete the following steps:
 Import the contacts.xlsx file into a DataFrame.
